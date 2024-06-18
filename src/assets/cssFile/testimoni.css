@@ -1,0 +1,72 @@
+body {
+  background-color: black;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.judul {
+  color: rgb(57, 172, 57);
+  animation: flicker 1.5s infinite alternate;
+}
+.container-rating {
+  color: rgb(57, 172, 57);
+  animation: flicker 1.5s infinite alternate;
+}
+
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.testimoni {
+  width: 25%;
+  margin: 0px 15px 30px 15px;
+  padding: 20px;
+  background-color: black;
+  box-shadow: 0 0 50px green;
+  border: 1px solid green;
+}
+
+.testimoni img {
+  height: 360px;
+  max-width: 100%;
+  max-height: 50%;
+}
+
+.testimoni p {
+  color: green;
+  animation: flicker 1.5s infinite alternate;
+  color: rgb(40, 211, 40);
+  font-size: 20px;
+}
+
+.rating button {
+  background-color: black;
+  color: green;
+  box-shadow: 0 0 50px green;
+  border: 1px solid green;
+  animation: flicker 1.5s infinite alternate;
+}
+@keyframes flicker {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 4px #068f18, 0 0 11px #05a30d, 0 0 19px #0ba50b, 0 0 40px rgb(9, 155, 45), 0 0 80px rgb(18, 189, 70), 0 0 90px rgb(9, 160, 47), 0 0 100px rgb(5, 175, 56), 0 0 150px rgb(7, 133, 45);
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}

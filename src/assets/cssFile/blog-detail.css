@@ -1,0 +1,22 @@
+.blog-detail {
+  justify-content: center;
+  display: flex;
+}
+.blog-detail-container {
+  width: 60%;
+  margin: 40px 0;
+  box-shadow: 0 0 50px green;
+}
+.blog-detail-container h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  line-height: 100%;
+  color: rgb(40, 211, 40);
+}
+.blog-detail-container p {
+  margin-top: 30px;
+  font-size: 20px;
+  text-align: justify;
+  color: rgb(40, 211, 40);
+}

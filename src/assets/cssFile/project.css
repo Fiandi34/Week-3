@@ -1,0 +1,43 @@
+.btn-button {
+  color: green;
+  background-color: black;
+  border: 1px solid green;
+  box-shadow: 0 0 50px green;
+  text-decoration: none;
+  animation: flicker 1.5s infinite alternate;
+  padding: 5px;
+  border-radius: 5px;
+}
+@keyframes flicker {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 4px #068f18, 0 0 11px #05a30d, 0 0 19px #0ba50b, 0 0 40px rgb(9, 155, 45), 0 0 80px rgb(18, 189, 70), 0 0 90px rgb(9, 160, 47), 0 0 100px rgb(5, 175, 56), 0 0 150px rgb(7, 133, 45);
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}
+.card-title {
+  text-decoration: none;
+  color: green;
+  font-size: 23px;
+}
+.body-card p {
+  color: green;
+  font-size: 15px;
+}
+.btn-primary {
+  background-color: black;
+  border: 1px solid green;
+  color: green;
+  box-shadow: 0 0 50px green;
+  animation: flicker 1.5s infinite alternate;
+}
